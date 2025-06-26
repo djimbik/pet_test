@@ -28,6 +28,7 @@
 		"pino": "9.7.0",
 		"pino-http": "10.5.0",
 		"swagger-ui-express": "5.0.1",
+		"uuid": "^11.1.0",
 		"zod": "3.25.67"
 	},
 	"devDependencies": {
@@ -46,9 +47,14 @@
 		"vitest": "3.2.3"
 	},
 	"tsup": {
-		"entry": ["src/index.ts"],
+		"entry": [
+			"src/index.ts"
+		],
 		"outDir": "dist",
-		"format": ["esm", "cjs"],
+		"format": [
+			"esm",
+			"cjs"
+		],
 		"target": "es2020",
 		"sourcemap": true,
 		"clean": true,
