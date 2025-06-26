@@ -13,14 +13,13 @@
 
 #### Step 1: 🚀 Initial Setup
 
-- Clone the repository: `git clone https://github.com/edwinhern/express-typescript.git`
-- Navigate: `cd express-typescript`
+- Clone the repository: `git clone https://github.com/djimbik/pet_test.git`
+- Navigate: `cd pet_test`
 - Install dependencies: `pnpm install`
 
 #### Step 2: ⚙️ Environment Configuration
 
 - Create `.env`: Copy `.env.template` to `.env`
-- Update `.env`: Fill in necessary environment variables
 
 #### Step 3: 🏃‍♂️ Running the Project
 
